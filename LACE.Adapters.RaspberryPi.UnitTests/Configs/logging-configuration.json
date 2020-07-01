@@ -1,0 +1,13 @@
+﻿{
+  "SinkConfigurations": {
+    "Default": {
+      "LogLevel": "Warn"
+    },
+    "Sinks": [
+      {
+        "SinkType": "AppInsightsSink",
+        "LogLevel": "Warn"
+      }
+    ]
+  }
+}
