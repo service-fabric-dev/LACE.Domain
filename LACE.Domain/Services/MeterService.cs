@@ -1,23 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using LACE.Core.Abstractions.Model;
 using LACE.Domain.Data.Abstractions;
-using LACE.Domain.Model.Abstractions;
 using LACE.Domain.State;
-using LACE.Domain.State.Abstractions;
 using LACE.Domain.Validation.Abstractions;
 
 namespace LACE.Domain.Services
 {
     class MeterService
     {
-        private readonly IRepository<IMeter> _meterRepository;
-        private readonly IValidator<IMeter> _meterValidator;
+        private readonly IRepository<IMeterAdapter> _meterRepository;
+        private readonly IValidator<IMeterAdapter> _meterValidator;
 
-        public MeterService(IRepository<IMeter> meterRepository, IValidator<IMeter> meterValidator)
+        public MeterService(IRepository<IMeterAdapter> meterRepository, IValidator<IMeterAdapter> meterValidator)
         {
             _meterRepository = meterRepository;
             _meterValidator = meterValidator;

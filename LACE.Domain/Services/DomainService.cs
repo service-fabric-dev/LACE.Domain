@@ -1,10 +1,9 @@
 ﻿using LACE.Domain.Extensions;
-using LACE.Domain.Model.Abstractions;
-using LACE.Domain.State.Abstractions;
 using LACE.Domain.Validation.Abstractions;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using LACE.Core.Abstractions.Model;
 using LACE.Domain.Data.Abstractions;
 using LACE.Domain.Services.Abstractions;
 
@@ -14,18 +13,18 @@ namespace LACE.Domain.Services
     {
         private readonly IDomainState _domainState;
         private readonly IMeterService _meterService;
-        private readonly IRepository<IMachine> _machineRepository;
-        private readonly IRepository<IMonitor> _monitorRepository;
-        private readonly IValidator<IMachine> _machineValidator;
-        private readonly IValidator<IMonitor> _monitorValidator;
+        private readonly IRepository<IMachineAdapter> _machineRepository;
+        private readonly IRepository<IMonitorAdapter> _monitorRepository;
+        private readonly IValidator<IMachineAdapter> _machineValidator;
+        private readonly IValidator<IMonitorAdapter> _monitorValidator;
 
         public DomainService(
             IDomainState domainState,
             IMeterService meterService,
-            IRepository<IMachine> machineRepository,
-            IRepository<IMonitor> monitorRepository,
-            IValidator<IMachine> machineValidator,
-            IValidator<IMonitor> monitorValidator)
+            IRepository<IMachineAdapter> machineRepository,
+            IRepository<IMonitorAdapter> monitorRepository,
+            IValidator<IMachineAdapter> machineValidator,
+            IValidator<IMonitorAdapter> monitorValidator)
         {
             _domainState = domainState.Guard(nameof(domainState));
             _meterService = meterService.Guard(nameof(meterService));

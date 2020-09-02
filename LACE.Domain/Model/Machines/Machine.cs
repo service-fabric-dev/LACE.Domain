@@ -1,11 +1,10 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
-using LACE.Domain.Model.Abstractions;
-using LACE.Domain.State.Abstractions;
+using LACE.Core.Abstractions.Model;
 
 namespace LACE.Domain.Model.Machines
 {
-    class Machine : IMachine
+    public class Machine : IMachineAdapter
     {
         public Task WorkAsync(IFacts facts, CancellationToken cancellation)
         {

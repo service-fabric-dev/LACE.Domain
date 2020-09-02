@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
+using LACE.Core.Abstractions.Model;
 using LACE.Domain.Extensions;
-using LACE.Domain.State.Abstractions;
 using LACE.Domain.Validation.Abstractions;
 
 namespace LACE.Domain.State

@@ -1,5 +1,5 @@
-﻿using LACE.Domain.Model.Abstractions;
-using System.Collections.Concurrent;
+﻿using System.Collections.Concurrent;
+using LACE.Core.Abstractions.Model;
 
 namespace LACE.Domain.Model.Routines
 {

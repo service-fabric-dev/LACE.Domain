@@ -1,14 +1,13 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
+using LACE.Core.Abstractions.Model;
 using LACE.Domain.Extensions;
-using LACE.Domain.Model.Abstractions;
 using LACE.Domain.Model.Monitors.Logger.Abstractions;
 using LACE.Domain.State;
-using LACE.Domain.State.Abstractions;
 
 namespace LACE.Domain.Model.Monitors
 {
-    class Monitor : IMonitor
+    class Monitor : IMonitorAdapter
     {
         private readonly ILoggerAdapter _logger;
 

@@ -1,5 +1,5 @@
-﻿using LACE.Domain.Model.Meters.Moisture;
-using LACE.Domain.State.Abstractions;
+﻿using LACE.Core.Abstractions.Model;
+using LACE.Domain.Model.Meters.Moisture;
 using LACE.Domain.Validation.Abstractions;
 
 namespace LACE.Domain.Validation

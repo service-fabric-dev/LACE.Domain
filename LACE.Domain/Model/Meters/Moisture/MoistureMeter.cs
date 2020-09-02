@@ -1,11 +1,10 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
-using LACE.Domain.Model.Abstractions;
-using LACE.Domain.State.Abstractions;
+using LACE.Core.Abstractions.Model;
 
 namespace LACE.Domain.Model.Meters.Moisture
 {
-    class MoistureMeter : IMeter<MoistureFact>
+    class MoistureMeter : IMeterAdapter<MoistureFact>
     {
         public Task<MoistureFact> ReadConcreteAsync()
         {

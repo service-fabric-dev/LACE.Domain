@@ -1,6 +1,6 @@
-﻿using LACE.Domain.State.Abstractions;
-using System.Threading;
+﻿using System.Threading;
 using System.Threading.Tasks;
+using LACE.Core.Abstractions.Model;
 
 namespace LACE.Domain.Services.Abstractions
 {

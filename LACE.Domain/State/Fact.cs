@@ -1,4 +1,4 @@
-﻿using LACE.Domain.State.Abstractions;
+﻿using LACE.Core.Abstractions.Model;
 
 namespace LACE.Domain.State
 {

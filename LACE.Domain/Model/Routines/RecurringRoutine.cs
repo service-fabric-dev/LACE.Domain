@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
+using LACE.Core.Abstractions.Model;
 using LACE.Domain.Extensions;
-using LACE.Domain.Model.Abstractions;
 
 namespace LACE.Domain.Model.Routines
 {

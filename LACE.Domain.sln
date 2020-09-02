@@ -9,16 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LACE.Domain.UnitTests", "LA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LACE.Domain.Service", "LACE.Domain.Service\LACE.Domain.Service.csproj", "{B31403DE-C3A7-4420-9D93-C0991624E438}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LACE.Core", "LACE.Core\LACE.Core.csproj", "{52BF9DCE-E34B-4C35-8F60-76D0E5F6378B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{DAA42D78-153F-429B-A56F-45583FE0D48A}"
 	ProjectSection(SolutionItems) = preProject
 		project-notes.md = project-notes.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LACE.Adapters.RaspberryPi", "LACE.Adapters.RaspberryPi\LACE.Adapters.RaspberryPi.csproj", "{1110959D-F499-4C45-AED7-1DD264322B61}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LACE.Adapters.RaspberryPi.UnitTests", "LACE.Adapters.RaspberryPi.UnitTests\LACE.Adapters.RaspberryPi.UnitTests.csproj", "{D582294F-BEB7-4AA4-817A-149E0FB3C22C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D4914773-E6E6-460B-B093-3F2483842293}"
+	ProjectSection(SolutionItems) = preProject
+		terraform.ter = terraform.ter
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -52,30 +51,6 @@ Global
 		{B31403DE-C3A7-4420-9D93-C0991624E438}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B31403DE-C3A7-4420-9D93-C0991624E438}.Release|x64.ActiveCfg = Release|Any CPU
 		{B31403DE-C3A7-4420-9D93-C0991624E438}.Release|x64.Build.0 = Release|Any CPU
-		{52BF9DCE-E34B-4C35-8F60-76D0E5F6378B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{52BF9DCE-E34B-4C35-8F60-76D0E5F6378B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{52BF9DCE-E34B-4C35-8F60-76D0E5F6378B}.Debug|x64.ActiveCfg = Debug|x64
-		{52BF9DCE-E34B-4C35-8F60-76D0E5F6378B}.Debug|x64.Build.0 = Debug|x64
-		{52BF9DCE-E34B-4C35-8F60-76D0E5F6378B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{52BF9DCE-E34B-4C35-8F60-76D0E5F6378B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{52BF9DCE-E34B-4C35-8F60-76D0E5F6378B}.Release|x64.ActiveCfg = Release|Any CPU
-		{52BF9DCE-E34B-4C35-8F60-76D0E5F6378B}.Release|x64.Build.0 = Release|Any CPU
-		{1110959D-F499-4C45-AED7-1DD264322B61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1110959D-F499-4C45-AED7-1DD264322B61}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1110959D-F499-4C45-AED7-1DD264322B61}.Debug|x64.ActiveCfg = Debug|x64
-		{1110959D-F499-4C45-AED7-1DD264322B61}.Debug|x64.Build.0 = Debug|x64
-		{1110959D-F499-4C45-AED7-1DD264322B61}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1110959D-F499-4C45-AED7-1DD264322B61}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1110959D-F499-4C45-AED7-1DD264322B61}.Release|x64.ActiveCfg = Release|x64
-		{1110959D-F499-4C45-AED7-1DD264322B61}.Release|x64.Build.0 = Release|x64
-		{D582294F-BEB7-4AA4-817A-149E0FB3C22C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D582294F-BEB7-4AA4-817A-149E0FB3C22C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D582294F-BEB7-4AA4-817A-149E0FB3C22C}.Debug|x64.ActiveCfg = Debug|x64
-		{D582294F-BEB7-4AA4-817A-149E0FB3C22C}.Debug|x64.Build.0 = Debug|x64
-		{D582294F-BEB7-4AA4-817A-149E0FB3C22C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D582294F-BEB7-4AA4-817A-149E0FB3C22C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D582294F-BEB7-4AA4-817A-149E0FB3C22C}.Release|x64.ActiveCfg = Release|Any CPU
-		{D582294F-BEB7-4AA4-817A-149E0FB3C22C}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
