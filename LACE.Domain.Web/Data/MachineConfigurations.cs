@@ -1,5 +1,4 @@
-﻿using System.Reflection.PortableExecutable;
-using LACE.Core.Extensions;
+﻿using LACE.Core.Extensions;
 using LACE.Data.Cosmos.Abstractions;
 using LACE.Domain.Web.Model;
 using System.Threading;

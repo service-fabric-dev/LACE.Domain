@@ -1,7 +1,6 @@
 using LACE.Core.Abstractions.Configuration;
 using LACE.Core.Abstractions.Injection;
 using LACE.Core.Configuration;
-using LACE.Data.Cosmos.Configuration;
 using LACE.Data.Cosmos.Injection;
 using LACE.Domain.Web.Data;
 using Microsoft.AspNetCore.Builder;
