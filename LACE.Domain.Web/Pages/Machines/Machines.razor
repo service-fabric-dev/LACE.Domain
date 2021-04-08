@@ -1,0 +1,42 @@
+﻿@page "/machines"
+
+@using LACE.Domain.Web.Model
+@using System.Threading
+@using LACE.Domain.Web.Data
+@inject MachineConfigurations Repository
+
+<h3>Machines</h3>
+
+<input type="text" @bind="newMachine.Name" />
+<button @onclick="UpsertMachine">Add Machine</button>
+
+<ul>
+    @foreach (var machine in machines)
+    {
+        <li>
+            <input type="text" @bind="machine.Name" />
+        </li>
+    }
+</ul>
+
+@code {
+    private List<MachineConfiguration> machines;
+    private MachineConfiguration newMachine;
+
+    protected override async Task OnInitializedAsync()
+    {
+        //var machines = await Repository.GetAsync();
+        machines = new();
+        newMachine = new();
+    }
+
+    private async Task UpsertMachine()
+    {
+        if (newMachine != null)
+        {
+            machines.Add(newMachine);
+            await Repository.Create(newMachine.Name, newMachine);
+            newMachine = new();
+        }
+    }
+}

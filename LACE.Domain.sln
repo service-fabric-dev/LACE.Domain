@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		terraform.ter = terraform.ter
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LACE.Domain.Web", "LACE.Domain.Web\LACE.Domain.Web.csproj", "{6652D3E8-F092-4C03-AF0F-1986ED3FC5F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,14 @@ Global
 		{B31403DE-C3A7-4420-9D93-C0991624E438}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B31403DE-C3A7-4420-9D93-C0991624E438}.Release|x64.ActiveCfg = Release|Any CPU
 		{B31403DE-C3A7-4420-9D93-C0991624E438}.Release|x64.Build.0 = Release|Any CPU
+		{6652D3E8-F092-4C03-AF0F-1986ED3FC5F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6652D3E8-F092-4C03-AF0F-1986ED3FC5F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6652D3E8-F092-4C03-AF0F-1986ED3FC5F7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6652D3E8-F092-4C03-AF0F-1986ED3FC5F7}.Debug|x64.Build.0 = Debug|Any CPU
+		{6652D3E8-F092-4C03-AF0F-1986ED3FC5F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6652D3E8-F092-4C03-AF0F-1986ED3FC5F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6652D3E8-F092-4C03-AF0F-1986ED3FC5F7}.Release|x64.ActiveCfg = Release|Any CPU
+		{6652D3E8-F092-4C03-AF0F-1986ED3FC5F7}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
